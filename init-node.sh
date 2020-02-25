@@ -9,7 +9,7 @@ mkdir -p $NODE_NAME
 
 zcashd -dns=0 -datadir=$NODE_NAME -rpcport=$RPC_PORT -port=$PORT -regtest=1 -printtoconsole -rpcbind=* -rpcallowip=0.0.0.0/0 -rpcpassword=password -rpcuser=user -txindex=1 &
 
-sleep 5
+sleep 10
 
 zcash-cli -datadir=$NODE_NAME -rpcport=$RPC_PORT -regtest=1 -rpcpassword=password -rpcuser=user generate 432
 
