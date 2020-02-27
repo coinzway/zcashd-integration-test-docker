@@ -2,7 +2,7 @@
 
 # Running
 ```
-docker run -p 18344:18344 --rm coinzway/zcashd-cash-integration-test-docker:latest
+docker run -p 18232:18232 --rm coinzway/zcashd-cash-integration-test-docker:latest
 ```
 
 # Building
